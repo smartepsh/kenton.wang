@@ -1,10 +1,32 @@
-baseURL = 'https://kenton.wang/'
-languageCode = 'zh'
-title = '脑补技能训练基地'
+baseURL = 'https://www.kenton.wang/'
+languageCode = 'zh-cn'
 theme = 'coder'
-defaultContentLanguage = "zh"
+defaultContentLanguage = "zh-cn"
+canonifyURLs = true
+uglyurls = true
 
-[params]
+[languages]
+  [languages.en]
+    contentDir = 'content'
+    languageName = 'English'
+    weight = 3
+    title = 'Head Canon Basement'
+  [languages.zh-cn]
+    contentDir = 'content'
+    languageName = '简体中文'
+    weight = 1
+    title = '脑补技能训练基地'
+
+[languages.zh-cn.params]
+  author = "岑儿姐"
+  info = "Elixir 后端开发工程师"
+  avatarURL = "images/avatar.jpg"
+  description = "个人博客"
+  since = "2022"
+  keywords = "blog,developer,personal,elixir"
+  customJS = ["js/busuanzi.pure.mini.js"]
+
+[languages.en.params]
   author = "Kenton Wang"
   info = "Elixir Backend Development Engineer"
   avatarURL = "images/avatar.jpg"
@@ -32,11 +54,19 @@ defaultContentLanguage = "zh"
   url = "mailto:fuzzes.oars-0s@icloud.com"
 
 # Menu links
-[[menu.main]]
+[[languages.zh-cn.menu.main]]
+  name = "开发"
+  weight = 1
+  url  = "/develops.html"
+[[languages.zh-cn.menu.main]]
+  name = "游戏"
+  weight = 2
+  url = "/games.html"
+[[languages.en.menu.main]]
   name = "Develop"
   weight = 1
-  url  = "develops/"
-[[menu.main]]
+  url  = "/develops.html"
+[[languages.en.menu.main]]
   name = "Game"
   weight = 2
-  url = "games/"
+  url = "/games.html"
