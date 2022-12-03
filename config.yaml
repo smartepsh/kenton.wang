@@ -2,7 +2,7 @@ baseURL: https://www.kenton.wang/
 languageCode: zh-cn
 defaultContentLanguage: zh-cn
 theme: coder
-canonifyURLs: true
+canonifyurls: true
 uglyurls: true
 
 params:
@@ -38,7 +38,7 @@ languages:
     menu:
       main:
         - name: About me
-          url: "/en/"
+          url: "/en/index.html"
           weight: 1
         - name: Develop
           weight: 2
