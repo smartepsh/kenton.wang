@@ -1,2 +1,8 @@
 - id: visits
   translation: "访问量："
+- id: "about me"
+  translation: "关于"
+- id: "develop"
+  translation: "开发"
+- id: "game"
+  translation: "游戏"

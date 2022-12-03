@@ -1,2 +1,10 @@
 - id: visits
   translation: "Visits: "
+- id: "about me"
+  translation: "About me"
+- id: "develop"
+  translation: "Development"
+- id: "game"
+  translation: "Game"
+- id: "page_not_found"
+  translation: "abc"

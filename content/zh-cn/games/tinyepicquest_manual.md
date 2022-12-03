@@ -1,8 +1,8 @@
 +++
-title = "TinyEpicQuest Manual"
+title = "TinyEpicQuest 说明书（中文）"
 author = ["Kenton Wang"]
 date = 2021-12-07
-lastmod = 2022-12-03T17:47:17+08:00
+lastmod = 2022-12-03T23:30:51+08:00
 tags = ["game", "manual"]
 categories = ["game"]
 draft = false
