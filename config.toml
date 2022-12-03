@@ -39,7 +39,7 @@ defaultContentLanguage = "zh"
 [[menu.main]]
   name = "Manuals"
   weight = 2
-  url = "about/"
+  url = "manuals/"
 [[menu.main]]
   name = "About"
   weight = 3
