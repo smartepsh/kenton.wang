@@ -33,14 +33,10 @@ defaultContentLanguage = "zh"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "Develop"
   weight = 1
-  url  = "posts/"
+  url  = "develops/"
 [[menu.main]]
-  name = "Manuals"
+  name = "Game"
   weight = 2
-  url = "manuals/"
-[[menu.main]]
-  name = "About"
-  weight = 3
-  url = "about/"
+  url = "games/"
